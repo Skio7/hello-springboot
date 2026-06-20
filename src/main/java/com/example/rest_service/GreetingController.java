@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
  public class GreetingController {
 
- private static final String template = "Hello, %s, thank you so much GreetingControll dx 7289262672 deploykar using for vupin Brijesh sourabh and sachin for deploying use!";
+ private static final String template = "Hello, %s, thank you so much GreetingController 123456789 deploykar using for vipin Brijesh sourabh and sachin for deploying use!";
  private final AtomicLong counter = new AtomicLong();
 
  @GetMapping("/greeting")
